@@ -14,6 +14,13 @@ const router = createBrowserRouter([
     element: <Root/>,
     errorElement: <ErrorPage />
   },
+  {
+    path: "/test-page",
+    element: 
+      <>
+        <h1>Hello World!</h1>
+      </>,
+  }
 ]);
 
 createRoot(document.getElementById('root')!).render(
