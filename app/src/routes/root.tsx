@@ -1,11 +1,10 @@
-import { Button } from "@radix-ui/themes"
+import NavBar from "../components/NavBar.tsx"
 
 function Root() {
  
   return (
     <>
-      <h1 className="text-red-400 border-red-500">Hello World!</h1>
-      <Button>HEllo</Button>
+      <NavBar />
     </>
   )
 }
