@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'main': ["Moderustic", 'sans-serif']
+        'main': ["Moderustic", 'sans-serif'],
+        'main2': ["Inter", "sans-serif"],
       }
     },
   },

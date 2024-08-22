@@ -1,16 +1,16 @@
 import { TabNav } from "@radix-ui/themes"
 import { Link } from "react-router-dom"
 
-function NavBar() {
+function NavBar(props: any) {
   return (
     <>
-      <div className="mt-5 mr-52 ml-52 mb-5">
-        <TabNav.Root className="border rounded-full m-5" wrap="nowrap" justify="center" size="2">
-          <TabNav.Link><Link to="/" className="no-underline font-main font-medium text-base">Home</Link></TabNav.Link>   
-          <TabNav.Link><Link to="/test-page" className="no-underline font-main font-medium text-base">Projects</Link></TabNav.Link>  
-          <TabNav.Link><Link to="/" className="no-underline font-main font-medium text-base">Skills</Link></TabNav.Link>  
-          <TabNav.Link><Link to="/" className="no-underline font-main font-medium text-base">Contact Me</Link></TabNav.Link>  
-        </TabNav.Root>
+      <div className="mr-72 ml-72">
+      <TabNav.Root className={props.className + " border rounded-full m-5"} wrap="wrap" justify="center" size="2">
+        <TabNav.Link><Link to="/" className="no-underline font-main font-medium text-lg">Home</Link></TabNav.Link>   
+        <TabNav.Link><Link to="/test-page" className="no-underline font-main font-medium text-lg">Projects</Link></TabNav.Link>  
+        <TabNav.Link><Link to="/" className="no-underline font-main font-medium text-lg">Skills</Link></TabNav.Link>  
+        <TabNav.Link><Link to="/" className="no-underline font-main font-medium text-lg">Contact Me</Link></TabNav.Link>  
+      </TabNav.Root> 
       </div>
     </>
   )
