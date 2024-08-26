@@ -13,6 +13,6 @@ module.exports = {
     require('daisyui'),
   ],
   daisyui: {
-    themes: ["dim"]
+    themes: ["dim", "emerald", "nord"]
   }
 }
