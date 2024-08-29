@@ -1339,6 +1339,14 @@ html {
   margin-left: 13rem;
 }
 
+.mr-11 {
+  margin-right: 2.75rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .mr-52 {
   margin-right: 13rem;
 }
@@ -1351,6 +1359,10 @@ html {
   margin-top: 3.5rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -1361,22 +1373,6 @@ html {
 
 .mt-7 {
   margin-top: 1.75rem;
-}
-
-.mr-10 {
-  margin-right: 2.5rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
-.mr-11 {
-  margin-right: 2.75rem;
-}
-
-.mr-2 {
-  margin-right: 0.5rem;
 }
 
 .inline-block {
@@ -1395,37 +1391,12 @@ html {
   height: 100vh;
 }
 
-.h-20 {
-  height: 5rem;
-}
-
 .w-32 {
   width: 8rem;
 }
 
-.w-96 {
-  width: 24rem;
-}
-
 .w-80 {
   width: 20rem;
-}
-
-.w-fit {
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.w-auto {
-  width: auto;
-}
-
-.w-1\/2 {
-  width: 50%;
-}
-
-.max-w-md {
-  max-width: 28rem;
 }
 
 .content-center {
@@ -1440,10 +1411,6 @@ html {
   justify-content: flex-start;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
 }
@@ -1452,24 +1419,9 @@ html {
   border-radius: 9999px;
 }
 
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
 .bg-base-100 {
   --tw-bg-opacity: 1;
   background-color: var(--fallback-b1,oklch(var(--b1)/var(--tw-bg-opacity)));
-}
-
-.bg-slate-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
 .bg-zinc-200 {
@@ -1483,10 +1435,6 @@ html {
 
 .bg-center {
   background-position: center;
-}
-
-.p-10 {
-  padding: 2.5rem;
 }
 
 .pr-5 {
@@ -1505,6 +1453,11 @@ html {
   font-family: Inter, sans-serif;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
@@ -1515,21 +1468,6 @@ html {
   line-height: 1.5rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -1538,9 +1476,9 @@ html {
   font-weight: 400;
 }
 
-.text-slate-200 {
+.text-black {
   --tw-text-opacity: 1;
-  color: rgb(226 232 240 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-slate-800 {
