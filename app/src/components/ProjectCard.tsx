@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import { FaReact } from "react-icons/fa";
 
 interface ProjectCardProps {
   title: string,
@@ -23,7 +22,7 @@ export default function ProjectCard(props: ProjectCardProps) {
   let project_buttons: any = []
 
   links.forEach((link, index) => {
-    project_buttons.push(<button className="btn btn-primary mr-2"><Link to={link_names[index]}>{links[index]}</Link></button>)
+    project_buttons.push(<button className="btn btn-primary mr-2"><Link to={link_names[index]}>{link}</Link></button>)
   })
 
   return (

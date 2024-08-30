@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import Root from "./routes/root.tsx"
 import ErrorPage from "./routes/error-page.tsx"
+import Secret from "./routes/secret.tsx"
 import "./styles/output.css"
 import {
   createBrowserRouter,
@@ -15,11 +16,12 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />
   },
   {
-    path: "/test-page",
+    path: "/secret",
     element: 
       <>
-        <h1>Hello World!</h1>
+        <Secret />
       </>,
+    errorElement: <ErrorPage />
   }
 ]);
 
