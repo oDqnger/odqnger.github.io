@@ -8,6 +8,7 @@ import {
   FaPython, 
   FaLinux } 
 from "react-icons/fa";
+import { CgWebsite } from "react-icons/cg"
 import pfp from "../assets/pfp.jpg"
 
 function Root() {
@@ -39,7 +40,7 @@ function Root() {
 
           <ProjectCard title="utilitilib" description="A python utility library" link_names={["https://github.com/oDqnger/utilitilib", "https://pypi.org/project/utilitilib/"]} links={["github", "pypi"]} logo={<FaPython />} />
 
-          <ProjectCard title="odqnger.dev" description="My personal website" link_names={["https://github.com/oDqnger"]} links={["github"]} logo={pfp}/>
+          <ProjectCard title="odqnger.github.io" description="My personal website" link_names={["https://github.com/oDqnger"]} links={["github"]} logo={<CgWebsite />}/>
         </div>
         <div className="mb-14">
           <ProjectCard title="chat-spammer" description="An app that spams messages" link_names={["https://github.com/oDqnger/chat-spammer"]} links={["github"]} logo={<FaPython />} />
